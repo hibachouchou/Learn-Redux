@@ -1,0 +1,7 @@
+[ 
+{"id":1,"name":"Cat 1","price":50,"description":"Some quick example text to build on the card title and make up the bulk of the card's content.","image":"/cat img/cat3.jpg"}
+,{"id":2,"name":"Cat 2","price":60,"description":"Some quick example text to build on the card title and make up the bulk of the card's content.","image":"/cat img/cat4.jpg"}
+,{"id":3,"name":"Cat 3","price":70,"description":"Some quick example text to build on the card title and make up the bulk of the card's content.","image":"/cat img/cat5.webp"}
+,{"id":4,"name":"Cat 4","price":80,"description":"Some quick example text to build on the card title and make up the bulk of the card's content.","image":"/cat img/cat6.webp"}
+]
+   
