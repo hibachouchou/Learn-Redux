@@ -12,10 +12,10 @@ function App() {
 
 
     return (
-    <div ><Provider store={store}>
-      <BrowserRouter>
+<div >
+<Provider store={store}>
+<BrowserRouter>
 <Navbar/>
-
 <Routes>
 <Route element={<Home/>} exact path='/Home'/>
 <Route element={<Products/>} exact path='/Products'/>
@@ -24,7 +24,7 @@ function App() {
 </Routes>
 </BrowserRouter>
 </Provider>
-      </div>
+  </div>
     );
       }
 

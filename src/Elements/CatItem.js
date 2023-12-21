@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import img1 from "../cat img/cat4.jpg";
 
 
 export default function CatItems(props){

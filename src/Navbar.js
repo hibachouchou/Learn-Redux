@@ -7,7 +7,6 @@ export default function Navbar(){
         <div>
 
 <nav className="navbar navbar-expand-lg bg-light">
-
   <div className="container-fluid">
     <NavLink className="navbar-brand" to="/Home" >CatStore</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +18,7 @@ export default function Navbar(){
           <NavLink className="nav-link " aria-current="page" to="/Home" >Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/Products" >Products</NavLink>
+          <NavLink className="nav-link" to="/Products" >Cats</NavLink>
         </li>
      <li>
      <CartIcon/>

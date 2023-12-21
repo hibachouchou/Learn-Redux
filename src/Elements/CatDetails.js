@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { connect } from "react-redux";
 import { useParams } from "react-router"
 import { getById } from "../API/Cats"
-import img1 from "../cat img/cat4.jpg";
 import { addToCart } from "../Store/Action/action";
  function CatDetails(props){
 const {id}=useParams()
@@ -35,7 +34,7 @@ if(e.target.value<=0){
             {loading && <div>loading ...</div>}
             { !loading &&  state &&    <div className="container" style={{width: "40rem"}}>
 
-  <img src={state.image} className="card-img-top" alt="..."/>
+  <img src={state.image} className="card-img-top" alt="cat image"/>
   <div className="row align-items-start">
     <h5 className="card-title">Nom :{state.name}</h5>
     <h6 className="card-text">Prix :{state.price} dt</h6>
