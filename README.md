@@ -1,3 +1,3 @@
 # Learn Redux with React 
-## Cat Store
+## Small Cat Store
 ![Cat Store](catstore.png)
